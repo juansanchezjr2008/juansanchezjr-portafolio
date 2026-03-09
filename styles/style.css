@@ -1,6 +1,87 @@
-:root {
-    --main-color : #24cf71;
-    --background-color : #f2f2f2;
-    --accent-color : #1aff79;
+#appbar{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding: 2rem;
+    user-select: none;
 }
 
+.appbar-wrap{
+    width:100%;
+    max-width:1200px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0.5rem 2rem;
+
+    border:1px solid #777;
+    border-radius:80px;
+
+    background:#efefef;
+}
+
+.logo img{
+    width:48px;
+    height:48px;
+}
+
+.nav{
+    display:flex;
+    gap:3rem;
+    align-items:center;
+}
+
+.nav-i{
+    text-decoration:none;
+    color:#111;
+    font-size:1.4rem;
+    padding:.4rem .9rem;
+    border-radius:30px;
+    font-weight: 700;
+}
+
+.nav-i:hover,
+.nav-i:focus,
+.nav-i:active{
+    background:#49c48c;
+    color:#0f5132;
+}
+
+.status-area{
+    border-left:2px solid #777;
+    padding-left:2rem;
+    margin-left:2rem;
+}
+
+.status-dot{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:#3db67f;
+}
+
+.c-main {
+    padding: 0px 30px;
+    display: flex;
+    min-width: 0;
+    flex: 1;
+}
+
+.c-box {
+    margin: 0px 5px;
+    background-color: #efefef;
+    border: 1px solid #777;
+    border-radius: 10px;
+    height: 70vh;
+}
+
+.c-content {
+    display: flex;
+    width: 100%;
+}
+
+.c-topics {
+    width: 400px;
+}
