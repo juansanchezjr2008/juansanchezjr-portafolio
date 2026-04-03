@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/GLOBAL.css">
+    <title></title>
+</head>
+<body>
+
+    <div class="c-window">
+        <div class="cw-appbar">
+            <img src="/logotipo.ico" alt="icono-jsjr">
+            <p>Juan Sanchez Jr</p>
+            <button>×</button>
+        </div> <!-- Appbar -->
+        <div class="cw-inner">
+            <img src="/logotipo.ico" class="pic-profile">
+            <div class="det-profile">
+                <h2>Juan de Dios Sanchez S.</h2>
+                <p>Desarrollo Web y de Software | 17 Años | Mexico</p>
+                <div id="schedule"></div>
+                <div class="nbtn-container">
+                    <button class="nbtn downloadcv">Descargar CV (PDF)</button>
+                    <button class="nbtn openProfile">Abrir Portafolio</button>
+                </div>
+                <a href="" target="_blank" rel="noopener noreferrer">↗ Explorar servicios especificos para ti o tu negocio</a>
+            </div>
+        </div>
+    </div> <!-- Window -->
+
+    <div class="c-window">
+        <div class="cw-appbar">
+            <p>Contenidos Explorables</p>
+        </div>
+        <div class="cw-inner md-c markdown-window">
+            <markdown-l src="main.md"></markdown-l>
+        </div>
+    </div> <!-- Content Markdown -->
+
+    <main>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="module" src="CONSTRUCT.js"></script>
+
+</body>
+</html>

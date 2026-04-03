@@ -1,0 +1,26 @@
+[
+  {
+    "id": "juan",
+    "name": "Juan Sanchez Jr.",
+    "role": "Desarrollador Web y Despliegue",
+    "specialty": "Interfaces modernas y despliegue web",
+    "available": true,
+    "photo": "/assets/profile/juan.jpg"
+  },
+  {
+    "id": "erick",
+    "name": "Erick O. Soto",
+    "role": "Desarrollador Python",
+    "specialty": "Automatización y scripts básicos",
+    "available": false,
+    "photo": "/assets/profile/erick.jpg"
+  },
+  {
+    "id": "edgar",
+    "name": "Edgar E. Mora",
+    "role": "Desarrollador C, C++ y C#",
+    "specialty": "Programación de bajo nivel",
+    "available": false,
+    "photo": "/assets/profile/edgar.jpg"
+  }
+]
