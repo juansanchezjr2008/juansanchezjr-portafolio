@@ -2,19 +2,33 @@
 <html lang="es" translate="no">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Juan Sanchez Jr - Desarrollo de Software</title>
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/styles/GLOBAL.css">
-    <title></title>
 </head>
 <body>
 
-    <div class="c-window">
-        <div class="cw-appbar">
-            <img src="/logotipo.ico" alt="icono-jsjr">
-            <p>Juan Sanchez Jr</p>
+    <header id="c-appbar">
+        <a href="#" class="c-icon">
+            <img src="/favicon.png" alt="">
+            <p>| Juan Sanchez Jr.</p>
+        </a>
+
+        <nav class="c-nav">
+            <a href="">EXPLORACION</a>
+            <a href="">SERVICIOS</a>
+            <a href="">CONTACTO</a>
+        </nav>
+    </header>
+    <img src="/public/pictures/ua-banner(1800x700).png" alt="promo" id="c-hero">
+    <section class="c-profile">
+        <div class="winc-header">
+            <p>Introduccion a mi Perfil (Portafolio)</p>
             <button>×</button>
-        </div> <!-- Appbar -->
-        <div class="cw-inner">
+        </div>
+        <div class="winc-inner">
             <img src="/logotipo.ico" class="pic-profile">
             <div class="det-profile">
                 <h2>Juan de Dios Sanchez S.</h2>
@@ -24,25 +38,13 @@
                     <button class="nbtn downloadcv">Descargar CV (PDF)</button>
                     <button class="nbtn openProfile">Abrir Portafolio</button>
                 </div>
+
                 <a href="" target="_blank" rel="noopener noreferrer">↗ Explorar servicios especificos para ti o tu negocio</a>
-            </div>
         </div>
-    </div> <!-- Window -->
+    </section>
 
-    <div class="c-window">
-        <div class="cw-appbar">
-            <p>Contenidos Explorables</p>
-        </div>
-        <div class="cw-inner md-c markdown-window">
-            <markdown-l src="main.md"></markdown-l>
-        </div>
-    </div> <!-- Content Markdown -->
 
-    <main>
-    </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script type="module" src="CONSTRUCT.js"></script>
-
+    <script src="CONSTRUCT.js"></script>
 </body>
 </html>
