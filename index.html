@@ -1,50 +1,92 @@
 <!DOCTYPE html>
-<html lang="es" translate="no">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" 
-    content="width=device-width, initial-scale=1.0">
-    <title>Juan Sanchez Jr - Desarrollo de Software</title>
-    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/styles/GLOBAL.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Sánchez Sandoval</title>
+  <link rel="stylesheet" href="/styles/GLOBAL.css" />
+  <link rel="stylesheet" href="/styles/markdown-a.css" />
+  <link rel="icon" type="image/png" href="icon.png" />
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.0.0/dist/markdown-it.min.js" defer></script>
+  <script src="/CONSTRUCT.js" defer></script>
+  <script src="/scripts/roadmap.js" defer></script>
 </head>
 <body>
+  <div class="page">
 
-    <header id="c-appbar">
-        <a href="#" class="c-icon">
-            <img src="/favicon.png" alt="">
-            <p>| Juan Sanchez Jr.</p>
-        </a>
+    <!-- Navbar -->
+    <nav class="navbar" id="main-navbar">
+      <div class="logo-wrap">
+        <img src="icon.png" alt="Logo" class="logo-img" />
+      </div>
+      <div class="nav-links" id="nav-links">
+        <span class="nav-item active" data-page="inicio">Inicio</span>
+        <span class="nav-item" data-page="creaciones">Creaciones</span>
+        <span class="nav-item" data-page="servicios">Servicios</span>
+      </div>
+      <div class="online-badge" id="online-badge">
+        <div class="dot" id="status-dot"></div>
+        <span id="status-text">Conectando...</span>
+      </div>
+    </nav>
 
-        <nav class="c-nav">
-            <a href="">EXPLORACION</a>
-            <a href="">SERVICIOS</a>
-            <a href="">CONTACTO</a>
-        </nav>
-    </header>
-    <img src="/public/pictures/ua-banner(1800x700).png" alt="promo" id="c-hero">
-    <section class="c-profile">
-        <div class="winc-header">
-            <p>Introduccion a mi Perfil (Portafolio)</p>
-            <button>×</button>
+    <!-- Perfil -->
+    <div class="profile-card">
+      <div class="profile-photo-wrap">
+        <img src="assets/photos/photo-profile.png" alt="Foto de perfil" class="profile-photo" />
+      </div>
+      <div class="profile-name">Juan Sánchez Sandoval</div>
+      <div class="profile-sub">
+        <span>🇲🇽</span>
+        <span class="sep">|</span>
+        <span><strong>17</strong> — Desarrollador Web y de Videojuegos</span>
+      </div>
+      <hr class="divider" />
+      <p class="profile-bio">
+        "Soy Juan, estudiante de programación y programador amateur especializado en el desarrollo web y de
+        videojuegos... explorando más tecnologías, solidificándome en una. Mejorando mis habilidades, aprendiendo
+        nuevas, y creando proyectos interesantes en el camino. Aprendiendo inglés, y buscando oportunidades para
+        crecer profesionalmente."
+      </p>
+    </div>
+
+    <!-- Roadmap dinámico -->
+    <div class="roadmap-wrapper">
+      <div id="roadmap-container" class="roadmap-container"></div>
+    </div>
+
+    <!-- Proyecto principal -->
+    <div class="project-card">
+      <div class="project-img">Fotografía</div>
+      <div class="project-body">
+        <h2 class="project-title">Proyecto Principal</h2>
+        <p class="project-desc">
+          "Este proyecto usa Python + Requests + PySide6, se trata de un presentador lírico servido en una red
+          local a la que distintos dispositivos pueden acceder..."
+        </p>
+        <button class="discover-btn">Descubrir</button>
+      </div>
+    </div>
+
+    <!-- Lista de proyectos -->
+    <div class="projects-list" id="projects-list">
+      <div class="projects-header">
+        <h3 class="projects-title">Proyectos</h3>
+      </div>
+      <div id="projects-container" class="projects-container"></div>
+    </div>
+
+    <!-- Modal fullscreen (móvil y desktop) -->
+    <div class="modal-overlay" id="project-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modal-title">Proyecto</h3>
+          <button class="modal-close" id="modal-close" aria-label="Cerrar">×</button>
         </div>
-        <div class="winc-inner">
-            <img src="/logotipo.ico" class="pic-profile">
-            <div class="det-profile">
-                <h2>Juan de Dios Sanchez S.</h2>
-                <p>Desarrollo Web y de Software | 17 Años | Mexico</p>
-                <div id="schedule"></div>
-                <div class="nbtn-container">
-                    <button class="nbtn downloadcv">Descargar CV (PDF)</button>
-                    <button class="nbtn openProfile">Abrir Portafolio</button>
-                </div>
+        <div class="modal-body" id="modal-body"></div>
+      </div>
+    </div>
 
-                <a href="" target="_blank" rel="noopener noreferrer">↗ Explorar servicios especificos para ti o tu negocio</a>
-        </div>
-    </section>
-
-
-
-    <script src="CONSTRUCT.js"></script>
+  </div>
 </body>
 </html>

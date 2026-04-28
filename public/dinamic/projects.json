@@ -1,0 +1,50 @@
+[
+  {
+    "id": "holycaster",
+    "title": "Holycaster",
+    "markdown": "holycaster.md",
+    "color": "purple"
+  },
+  {
+    "id": "holycaster2",
+    "title": "Holycaster 2",
+    "markdown": "holycaster2.md",
+    "color": "cyan"
+  },
+  {
+    "id": "presentador",
+    "title": "Presentador Lírico",
+    "markdown": "presentador.md",
+    "color": "green"
+  },
+  {
+    "id": "portfolio",
+    "title": "Portafolio Web",
+    "markdown": "portfolio.md",
+    "color": "blue"
+  },
+  {
+    "id": "bot-discord",
+    "title": "Bot de Discord",
+    "markdown": "bot-discord.md",
+    "color": "orange"
+  },
+  {
+    "id": "juego-unity",
+    "title": "Juego Unity",
+    "markdown": "juego-unity.md",
+    "color": "gray"
+  },
+  {
+    "id": "app-movil",
+    "title": "App Móvil",
+    "markdown": "app-movil.md",
+    "color": "pink"
+  },
+  {
+    "id": "scraper",
+    "title": "Web Scraper",
+    "markdown": "scraper.md",
+    "color": "red"
+  }
+]

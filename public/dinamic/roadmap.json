@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Aprendo GIT",
+    "link": "#git"
+  },
+  {
+    "title": "Desarrollo\n\"Holycaster\"",
+    "link": "#holycaster"
+  },
+  {
+    "title": "Aprendo Kdenlive",
+    "link": "#kdenlive"
+  },
+  {
+    "title": "Estudio Python",
+    "link": "#python"
+  },
+  {
+    "title": "Diseño UI/UX",
+    "link": "#uiux"
+  },
+  {
+    "title": "Aprendo Blender",
+    "link": "#blender"
+  },
+  {
+    "title": "Desarrollo\n\"Holycaster 2\"",
+    "link": "#holycaster2"
+  }
+]

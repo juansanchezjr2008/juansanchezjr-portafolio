@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/inter.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/fonts/outfit.ttf') format('truetype');
+}
